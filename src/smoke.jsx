@@ -18,9 +18,9 @@ const Smoke = () => {
                         className="smoke-effect"
                         initial={{ scale: 0.9, opacity: 1 }}
                         animate={{
-                            scale: [0.9 , 1.1, 1.1],
-                            opacity: [1, 0.5, 0],
-                            boxShadow: ["0px 0px 0px 0px rgba(7, 241, 44, 0)", "0px 0px 20px 20px rgba(7, 241, 44, 0.6)", "0px 0px 20px 40px rgba(7, 241, 44, 0.8)"]
+                            scale: [0.9 , 1.2],
+                            opacity: [1 , 0],
+                            boxShadow: ["0px 0px 0px 0px rgba(7, 241, 44, 0)", "0px 0px 20px 40px rgba(7, 241, 44, 0.8)"]
                         }}
                         transition={{ duration: 1, ease: "easeOut" }}
                     />
